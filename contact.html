@@ -1,25 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact</title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Urban Brew Donuts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <div class="nav-container">
+            <span class="logo">🍩 Urban Brew</span>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
         <h1>Contact Us</h1>
+        <p class="subtitle">We'd love to hear from you! Drop us a line or visit one of our shops.</p>
 
-        <p>Email: infor@urbanbrewD.com</p>
-        <p>Phone: 011 346 8907</p>
-        <p>Whatsapp: 078 660 7895</p>
+        <hr>
 
-        <h2>Locations</h2>
-        <p>123 Maude Street, Jan Smuts Ave, Hyde Park (Main Office)</p>
-        <p>No 34 Rose Ave, Midrand, Johannesburg</p>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><strong>Email:</strong> info@urbanbrewD.com</p>
+                <p><strong>Phone:</strong> 011 346 8907</p>
+                <p><strong>WhatsApp:</strong> 078 660 7895</p>
 
-        <form>
-            <label>Your Message</label><br>
-            <textarea></textarea><br><br>
-            <button>Send</button>  
-        </form>
+                <h2>Locations</h2>
+                <p>📍 123 Maude Street, Jan Smuts Ave, Hyde Park <em>(Main Office)</em></p>
+                <p>📍 No 34 Rose Ave, Midrand, Johannesburg</p>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>  
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Urban Brew & Donuts. All rights reserved.</p>
+    </footer>
    
-    </body>
+</body>
 </html>

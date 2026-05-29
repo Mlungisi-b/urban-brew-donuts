@@ -1,28 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Enquiry</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make an Enquiry | Urban Brew & Donuts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Make an Enquiry</h1>
+    <header>
+        <div class="nav-container">
+            <span class="logo">🍩 Urban Brew</span>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="enquiry.html" class="active">Enquiry</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <form>
-        <label>Name & Surname:</label><br>
-        <input type="text"><br><br>
+    <div class="container">
+        <h1>Make an Enquiry</h1>
+        <p class="subtitle">Have a question or feedback? Let us know below!</p>
 
-        <label>Email:</label><br>
-        <input type="email"><br><br>
-        
-        <label>Message:</label><br>
-        <textarea></textarea><br><br>
+        <hr>
 
-        <button type="submit">Submit</button>
-    </form>
+        <div class="enquiry-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name & Surname:</label>
+                    <input type="text" id="name" placeholder="e.g., Thabo Molefe" required>
+                </div>
 
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" placeholder="e.g., thabo@example.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Type your inquiry here..." required></textarea>
+                </div>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+        </div>
+
+        <p class="footer-note">
+            We will gladly look into your enquiries and get back to you soon. Your feedback helps us upgrade our services to meet your expectations.
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Urban Brew & Donuts. All rights reserved.</p>
+    </footer>
     
-
-<P1>We will gladly look into your enquiries and get back to you soon. Your enquiries will help us upgrade our services to meet your expectaions. </P1>
 </body>    
 </html>
-
