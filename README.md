@@ -1,4 +1,4 @@
-# Urban Brew Donuts - Web Development Project (Part 2)
+# Urban Brew Donuts - Web Development Project (Part 3)
 
 Welcome to the digital frontend platform for **Urban Brew Donuts**. This repository contains the complete frontend architecture designed to meet the strict module requirements for Part 2 - Designing the Visuals: CSS Styling and Responsive Design.
 
