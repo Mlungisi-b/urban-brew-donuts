@@ -65,3 +65,19 @@ As required by Section 1 evaluation directives, below is the comprehensive chang
 
 ### AI Consultation Tracking (Where Applicable for Code Remediation)
 * OpenAI / Google. 2026. *Gemini / ChatGPT AI Assistant architectural layout consultation tracking session: Implementation of responsive multi-column grid layouts and relative design unit compliance*. Prompted by student on 29 May 2026.
+
+---
+
+## 🚀 Part 3 Advanced Functionality Implementation (WEDE5020)
+
+This final iteration introduces advanced interactivity, client-side data validation, external integrations, and search engine optimization best practices:
+
+### 🧠 1. Client-Side JavaScript Interactivity (`script.js`)
+- **Interactive Form Validation:** Developed a tailored script linked to the `enquiry.html` form layout. It captures submission events, checks user inputs using `.trim()`, and provides dynamic error messages or success updates dynamically inserted into the DOM without refreshing the page.
+- **Dynamic DOM Elements & Animations:** Created dynamic event listeners (`mouseenter`, `mouseleave`) across the image galleries. It manipulates properties like `transform: scale()` and `filter: brightness()` to provide responsive, smooth hover effects.
+
+### 🗺️ 2. External Service Integration
+- Embedded a functional location tracker via a styled Google Maps `<iframe>` container on `contact.html` to give users a clear geographical view of our main office branch in Johannesburg.
+
+### 🔍 3. Search Engine Optimization (SEO)
+- Integrated custom `<meta name="description">` tags into the `<head>` block of all five distinct webpages to ensure accurate and concise content snippets appear on search engine results pages.
