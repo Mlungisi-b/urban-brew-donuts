@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Mlungisi-b.github.io/urban-brew-donuts/sitemap.xml

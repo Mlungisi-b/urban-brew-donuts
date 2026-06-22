@@ -81,3 +81,33 @@ This final iteration introduces advanced interactivity, client-side data validat
 
 ### 🔍 3. Search Engine Optimization (SEO)
 - Integrated custom `<meta name="description">` tags into the `<head>` block of all five distinct webpages to ensure accurate and concise content snippets appear on search engine results pages.
+
+# Urban Brew & Donuts — WEDE5020 POE Part 3
+
+An interactive, responsive storefront application designed for a premium coffee and artisanal donut brand operating in Johannesburg.
+
+## 🚀 Live Deployment
+URL: [https://Mlungisi-b.github.io/urban-brew-donuts/](https://Mlungisi-b.github.io/urban-brew-donuts/)
+
+---
+
+## 📝 1. Changelog (Feedback-Driven Optimizations)
+As required by Section 1 and Section 5 of the project brief, the following adjustments were made based on academic feedback from Part 2:
+* **Semantic Structure Validation:** Fixed heading hierarchy transitions across the index and products viewpoints.
+* **SEO Metadata Alignment:** Integrated high-intent regional keywords ("Jozi", "handcrafted") into HTML meta descriptions.
+* **Form Layout Fixes:** Standardized form fields on `enquiry.html` and `contact.html` with explicit label matching.
+
+---
+
+## 🛠️ 2. Core Functional Implementations (Part 3)
+* **Section 2.1 (Lightbox Gallery):** Built a non-intrusive JavaScript-driven interactive modal viewport onto image vectors.
+* **Section 2.2 (Engine Interface):** Added real-time product search criteria matching and multi-tier price sorting.
+* **Section 3.3 (Technical SEO Assets):** Formulated explicit root mapping structures via `robots.txt` and `sitemap.xml`.
+* **Section 4.2 (Asynchronous Form Processing):** Created simulated AJAX network connection thresholds using loading latency before rendering context confirmation states.
+
+---
+
+## 📚 3. Academic References
+Duckett, J. 2014. *Web Design with HTML, CSS, JavaScript and jQuery Set*. Indianapolis: John Wiley & Sons.
+
+Flanagan, D. 2020. *JavaScript: The Definitive Guide*. 7th ed. Sebastopol: O'Reilly Media.
